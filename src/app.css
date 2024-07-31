@@ -1,0 +1,149 @@
+body{
+    height: 100vh;
+}
+#root {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #536493;
+}
+
+.app h1 {
+    padding: 0px;
+    font-size: 60px;
+    color: #00224D;
+}
+
+.app{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eachQuiz {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.eachQuiz h2{
+    /* width: 100%; */
+    color: #141E46;
+    height: 60px;
+    padding: 0px;
+    width: 100%;
+
+}
+.options {
+    width:80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option {
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    background-color: #C0D6E8;
+
+}
+
+.right {
+    background-color: #399918;
+    color: white;
+}
+
+.showX {
+    background-color: #A0153E;
+}
+
+.disabled {
+    cursor: none;
+    pointer-events: none;
+    
+}
+
+.next{
+    font-size: larger;
+    cursor: pointer;
+    padding: 4px 12px;
+    height: max-content;
+    background-color: #399918;
+    color: white;
+    border-radius: 15%;
+}
+
+.goToHome{
+    font-size: larger;
+    cursor: pointer;
+    padding: 4px 12px;
+    height: max-content;
+    border: none;
+    color: white;
+    background-color: #577B8D;
+    border-radius: 5%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.noNext{
+    opacity: 0.5;    
+    cursor: not-allowed;
+
+}
+
+.nextAndScore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.rewards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}
+
+.rewards div{
+    width: 70%;
+    border-radius: 5%;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.opened {
+    background-color:#D2649A;
+}
+
+.notOpened {
+    background-color: #850F8D;
+
+}
+
+.rewards div p {
+    font-size: large;
+}
+
+.scoreBoard {
+    padding: 0;
+}
+
+.scoreBoard h1 {
+    padding: 0;
+}
+
