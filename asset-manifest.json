@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/formama/static/css/main.563a5fd8.css",
-    "main.js": "/formama/static/js/main.d9523564.js",
+    "main.js": "/formama/static/js/main.0c476337.js",
     "index.html": "/formama/index.html",
     "main.563a5fd8.css.map": "/formama/static/css/main.563a5fd8.css.map",
-    "main.d9523564.js.map": "/formama/static/js/main.d9523564.js.map"
+    "main.0c476337.js.map": "/formama/static/js/main.0c476337.js.map"
   },
   "entrypoints": [
     "static/css/main.563a5fd8.css",
-    "static/js/main.d9523564.js"
+    "static/js/main.0c476337.js"
   ]
 }
