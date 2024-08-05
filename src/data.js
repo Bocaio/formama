@@ -161,6 +161,76 @@ const question = [{
   ]
 },
 {
+  question : 'Who call first after a fight? 🤬👊🏼',
+  options : [
+      { option : 'Mg',
+        condition : true 
+      }
+      ,
+      {
+        option : 'MaMa',
+        condition : false
+      }
+      ,
+      {
+          option : 'Either of us',
+          condition : false
+      }
+      ,
+      {
+          option : 'Neither of us',
+          condition : false,
+      }
+  ]
+},
+{
+  question : 'Who is good at Alcohol? 🍺',
+  options : [
+      { option : 'Mg',
+        condition : false 
+      }
+      ,
+      {
+        option : 'MaMa',
+        condition : true
+      }
+      ,
+      {
+          option : 'Either of us',
+          condition : false
+      }
+      ,
+      {
+          option : 'Neither of us',
+          condition : false,
+      }
+  ]
+},
+{
+  question : 'Who is idiot? 🤔',
+  options : [
+      { option : 'Mg',
+        condition : false 
+      }
+      ,
+      {
+        option : 'MaMa',
+        condition : true
+      }
+      ,
+      {
+          option : 'Either of us',
+          condition : false
+      }
+      ,
+      {
+          option : 'Neither of us',
+          condition : false,
+      }
+  ]
+},
+
+{
   question : 'Which movie genre will we watch? 🍿🎥',
   options : [
       { option : 'Action',
